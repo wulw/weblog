@@ -1,0 +1,20 @@
+@charset 'utf-8';
+/*
+ *	Created by wulw on 2018-08-05 23:17:51.
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#mycanvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+header {
+	
+}
