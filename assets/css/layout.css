@@ -1,12 +1,19 @@
 @charset 'utf-8';
 /*
- *	Created by wulw on 2018-08-05 23:17:51.
+ * Created by wulw on 2018-08-05 23:17:51.
  */
 
 body {
+	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif
+	font-size: 16px;
 	margin: 0;
 	padding: 0;
-	background: #f1f1f1;
+}
+
+a {
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
 }
 
 #mycanvas {
@@ -16,6 +23,12 @@ body {
 	z-index: 0;
 }
 
-header {
-	
+header.title a {
+	position: fixed;
+	top: 13px;
+	left: 13px;
+	background: #29292a;
+	color: #fff;
+	padding: 9px 12px 6px;
+	display: block;
 }
